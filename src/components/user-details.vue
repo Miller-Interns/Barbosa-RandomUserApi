@@ -99,7 +99,7 @@ const formattedAddress = computed(() => {
             <h4>Location</h4>
             <div class="detail-item"><strong>Address:</strong> <span>{{ formattedAddress }}</span></div>
             <div class="detail-item"><strong>Coordinates:</strong> <span>{{ selectedUser.location.coordinates.latitude
-                }}, {{ selectedUser.location.coordinates.longitude }}</span></div>
+            }}, {{ selectedUser.location.coordinates.longitude }}</span></div>
             <div class="detail-item"><strong>Timezone:</strong> <span>{{ selectedUser.location.timezone.description }}
                 ({{ selectedUser.location.timezone.offset }})</span></div>
           </div>
@@ -219,7 +219,8 @@ const formattedAddress = computed(() => {
 }
 
 .detail-section h4 {
-  margin-top: 0;
+  padding-top: 1rem;
+  margin-top: 1rem;
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
   color: #2260ff;
