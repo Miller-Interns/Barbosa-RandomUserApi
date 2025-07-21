@@ -7,6 +7,10 @@
   font-weight: normal;
 }
 
+body {
+  display: flex;
+}
+
 a,
 .green {
   text-decoration: none;
@@ -24,12 +28,12 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    background-color: #f3e9dc;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
   }
 }
